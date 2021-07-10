@@ -8,7 +8,7 @@ function setLoginSuccess(isLoginSuccess) {
     };
 }
 
-export async function login(username, password) {
+export function login(username, password) {
     return dispatch => {
        dispatch(setLoginSuccess(false));
 
